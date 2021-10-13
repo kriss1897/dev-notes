@@ -1,0 +1,25 @@
+{
+  "name": "dev-notes",
+  "version": "1.0.0",
+  "description": "Developer Notes",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriss1897/dev-notes.git"
+  },
+  "keywords": [
+    "web-development"
+  ],
+  "author": "https://github.com/kriss1897",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kriss1897/dev-notes/issues"
+  },
+  "homepage": "https://github.com/kriss1897/dev-notes#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

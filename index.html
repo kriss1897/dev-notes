@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Quereka</title>
+
+	<style type="text/css">
+		.que {
+			border: 1px solid red;
+			margin-bottom: 10px;
+		}
+
+		.answer {
+			font-weight: bold;
+		}
+
+		.fancy {
+			font-size: 50px;
+		}
+
+		#footer,
+		#header {
+			background: black;
+			color: white;
+		}
+
+		ul#navigation li {
+			display: inline;
+		}
+
+		table {
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+
+
+		tr {
+			border: 1px solid black;
+		}
+
+		td {
+			border-left: 1px solid black;
+			min-width: 100px;
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<header id="header">
+		<h1>Quereka</h1>
+		<h2>Questions</h2>
+	</header>
+
+	<nav>
+		<ul id="navigation">
+			<li>
+				<a href="/">Quiz</a>
+			</li>
+			<li>
+				<a href="/quiz/web-dev">Web Dev</a>
+			</li>
+			<li>
+				<a href="/about.html" target="_parent">About Us</a>
+			</li>
+			<li>
+				<a href="https://newtonschool.co" target="_blank">Newton School</a>
+			</li>
+		</ul>
+	</nav>
+
+	<section>
+		<div class="que" id="que-1">
+			<p>Trivia Que: What is the rarest <span class="fancy">M&M</span> color?
+				<a href="https://www.google.com">Google</a>
+			</p>
+			<div>
+				<ol>
+					<li>H20</li>
+					<li>O2</li>
+					<li>CO2</li>
+					<li>H2SO4</li>
+				</ol>
+			</div>
+			<p class="answer">Answer: &nbsp; &nbsp; &nbsp; H<sub>2</sub>O</p>
+		</div>
+
+		<div class="que" id="que-2">
+			<p>Trivia Question: What Comes Next??</p>
+			<table>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>4</td>
+						<td>9</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>?</td>
+						<td>25</td>
+					</tr>
+					<tr>
+						<td>36</td>
+						<td>49</td>
+						<td>64</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="answer">Answer: 25</p>
+		</div>
+
+		<div class="que" id="que-3">
+			<p>Trivia Question: Who is this person?</p>
+			<img height="300" src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" alt="Image of indian cricket player"/> 
+			<div>
+				<ol>
+					<li>KL</li>
+					<li>RS</li>
+					<li>VK</li>
+					<li>SD</li>
+				</ol>
+			</div>
+			<p class="answer">Answer: Virat Kohli</p>
+		</div>
+
+		<div class="que" id="que-3">
+			<p>Trivia Question: Who's voice is this?</p>
+			<!-- https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3 -->
+			<audio controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" >
+				Audio is not available in this browser 
+			</audio>
+			<div>
+				<ol>
+					<li>KL</li>
+					<li>RS</li>
+					<li>VK</li>
+					<li>SD</li>
+				</ol>
+			</div>
+			<p class="answer">Answer: Virat Kohli</p>
+		</div>
+
+		<div class="que" id="que-3">
+			<p>Trivia Question: Who's voice is this?</p>
+			<!-- https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3 -->
+			<video autoplay loop width="250">
+				
+				<source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+						type="video/webm">
+			
+				<source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+						type="video/mp4">
+			
+				Sorry, your browser doesn't support embedded videos.
+			</video>
+			
+			<div>
+				<ol>
+					<li>KL</li>
+					<li>RS</li>
+					<li>VK</li>
+					<li>SD</li>
+				</ol>
+			</div>
+			<p class="answer">Answer: Virat Kohli</p>
+		</div>
+	</section>
+
+	<footer>
+		Some Copyright Info
+	</footer>
+
+</body>
+
+</html>
